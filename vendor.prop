@@ -38,8 +38,8 @@ ro.hardware.audio.primary=pipa
 ro.vendor.display.paneltype=2
 vendor.display.defer_fps_frame_count=2
 ro.surface_flinger.use_content_detection_for_refresh_rate=true
-ro.surface_flinger.set_idle_timer_ms=250
-ro.surface_flinger.set_touch_timer_ms=300
+ro.surface_flinger.set_idle_timer_ms=1100
+ro.surface_flinger.set_touch_timer_ms=200
 vendor.display.disable_idle_time_hdr=1
 vendor.display.disable_idle_time_video=1
 vendor.display.disable_metadata_dynamic_fps=1
@@ -47,7 +47,7 @@ vendor.display.disable_metadata_dynamic_fps=1
 # Sensors
 persist.log.tag.sensors-hal=S
 persist.log.tag."LOGTAG"=S
+persist.vendor.sensors.debug.hal=0
 
 # USB
 vendor.usb.product_string=Xiaomi Pad 6
-
